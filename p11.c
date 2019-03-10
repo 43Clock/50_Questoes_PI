@@ -8,6 +8,5 @@ void strrev (char s[]) {
 		s[j] = t[i-1];
 		i--;
 	}
-	s[j] = '\0'
-	return;
+	s[j] = '\0';
 }
